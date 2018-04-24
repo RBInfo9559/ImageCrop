@@ -60,5 +60,5 @@ repositories {
 
 apply plugin: 'com.github.dcendents.android-maven'
 //apply from: 'maven-push.gradle'
-group='com.github.RBInfo9559'
+group='image.rb.crop'
 version = '1.0'
