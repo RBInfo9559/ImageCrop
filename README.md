@@ -1,11 +1,13 @@
 # ImageCrop
 
-How to Use:
-
+# How to Use:
 In Main Gradle file
 repositories 
 {
-   maven { url "https://jitpack.io" }
+   maven
+   { 
+      url "https://jitpack.io"
+   }
 }
 
 In Module Gradle file
