@@ -49,3 +49,4 @@ repositories {
 
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.RBInfo9559'
+version = '1.0'
