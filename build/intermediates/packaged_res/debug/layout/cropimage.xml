@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="horizontal">
+
+    <view
+        android:id="@+id/image"
+        class="image.rb.crop.CropImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_x="0dip"
+        android:layout_y="0dip"
+        android:background="#55000000" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+
+        <ImageButton
+            android:id="@+id/discard"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:background="@drawable/discard_selector"
+            android:paddingTop="2sp" />
+
+        <ImageButton
+            android:id="@+id/rotateLeft"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="6dp"
+            android:layout_centerVertical="true"
+
+            android:layout_toRightOf="@id/discard"
+            android:background="@drawable/rotate_left_selector" />
+
+        <ImageButton
+            android:id="@+id/rotateRight"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="6dp"
+            android:layout_centerVertical="true"
+
+            android:layout_toRightOf="@id/rotateLeft"
+            android:background="@drawable/rotate_right_selector" />
+
+
+        <ImageButton
+            android:id="@+id/save"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:layout_toRightOf="@id/rotateRight"
+
+            android:background="@drawable/save_selector"
+            android:paddingTop="2sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
