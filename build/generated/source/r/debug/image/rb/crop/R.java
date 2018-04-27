@@ -18,30 +18,28 @@ public final class R {
         public static int activity_vertical_margin = 0x7f080002;
     }
     public static final class drawable {
-        public static int bank = 0x7f090001;
-        public static int bg = 0x7f090002;
-        public static int btn_crop_operator = 0x7f090003;
-        public static int btn_crop_pressed = 0x7f090004;
-        public static int camera_crop_height = 0x7f090005;
-        public static int camera_crop_width = 0x7f090006;
-        public static int card_normal = 0x7f090007;
-        public static int card_pressed = 0x7f090008;
-        public static int card_selector = 0x7f090009;
-        public static int discard = 0x7f09000a;
-        public static int discard_h = 0x7f09000b;
-        public static int discard_selector = 0x7f09000c;
-        public static int ic_action_rotate_left_press = 0x7f09000d;
-        public static int ic_action_rotate_left_white = 0x7f09000e;
-        public static int ic_action_rotate_right_press = 0x7f09000f;
-        public static int ic_action_rotate_right_white = 0x7f090010;
-        public static int ic_launcher = 0x7f090011;
-        public static int indicator_autocrop = 0x7f090012;
-        public static int rotate_left_selector = 0x7f090013;
-        public static int rotate_right_selector = 0x7f090014;
-        public static int save = 0x7f090015;
-        public static int save_h = 0x7f090016;
-        public static int save_selector = 0x7f090017;
-        public static int selector_crop_button = 0x7f090018;
+        public static int croplib_bg = 0x7f090001;
+        public static int croplib_btn_crop_operator = 0x7f090002;
+        public static int croplib_btn_crop_pressed = 0x7f090003;
+        public static int croplib_camera_crop_height = 0x7f090004;
+        public static int croplib_camera_crop_width = 0x7f090005;
+        public static int croplib_card_normal = 0x7f090006;
+        public static int croplib_card_pressed = 0x7f090007;
+        public static int croplib_card_selector = 0x7f090008;
+        public static int croplib_discard = 0x7f090009;
+        public static int croplib_discard_h = 0x7f09000a;
+        public static int croplib_discard_selector = 0x7f09000b;
+        public static int croplib_ic_action_rotate_left_press = 0x7f09000c;
+        public static int croplib_ic_action_rotate_left_white = 0x7f09000d;
+        public static int croplib_ic_action_rotate_right_press = 0x7f09000e;
+        public static int croplib_ic_action_rotate_right_white = 0x7f09000f;
+        public static int croplib_indicator_autocrop = 0x7f090010;
+        public static int croplib_rotate_left_selector = 0x7f090011;
+        public static int croplib_rotate_right_selector = 0x7f090012;
+        public static int croplib_save = 0x7f090013;
+        public static int croplib_save_h = 0x7f090014;
+        public static int croplib_save_selector = 0x7f090015;
+        public static int croplib_selector_crop_button = 0x7f090016;
     }
     public static final class id {
         public static int discard = 0x7f0c0001;
@@ -51,8 +49,7 @@ public final class R {
         public static int save = 0x7f0c0005;
     }
     public static final class layout {
-        public static int cropimage = 0x7f0f0001;
-        public static int main = 0x7f0f0002;
+        public static int croplib_cropimage = 0x7f0f0001;
     }
     public static final class string {
         public static int action_settings = 0x7f150001;

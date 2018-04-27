@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/croplib_bg"
     android:orientation="horizontal">
 
     <view
@@ -29,7 +29,7 @@
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_margin="6dp"
-            android:background="@drawable/discard_selector"
+            android:background="@drawable/croplib_discard_selector"
             android:paddingTop="2sp" />
 
         <ImageButton
@@ -40,7 +40,7 @@
             android:layout_centerVertical="true"
 
             android:layout_toRightOf="@id/discard"
-            android:background="@drawable/rotate_left_selector" />
+            android:background="@drawable/croplib_rotate_left_selector" />
 
         <ImageButton
             android:id="@+id/rotateRight"
@@ -50,7 +50,7 @@
             android:layout_centerVertical="true"
 
             android:layout_toRightOf="@id/rotateLeft"
-            android:background="@drawable/rotate_right_selector" />
+            android:background="@drawable/croplib_rotate_right_selector" />
 
 
         <ImageButton
@@ -61,7 +61,7 @@
             android:layout_margin="6dp"
             android:layout_toRightOf="@id/rotateRight"
 
-            android:background="@drawable/save_selector"
+            android:background="@drawable/croplib_save_selector"
             android:paddingTop="2sp" />
 
     </RelativeLayout>

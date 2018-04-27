@@ -78,7 +78,7 @@ public class CropImage extends MonitoredActivity {
     private String          mImagePath;
 
     boolean       mWaitingToPick; // Whether we are wait the user to pick a face.
-    boolean       mSaving;  // Whether the "save" button is already clicked.
+    boolean       mSaving;  // Whether the "croplib_save" button is already clicked.
     HighlightView mCrop;
 
     // These options specifiy the output image size and whether we should
@@ -95,7 +95,7 @@ public class CropImage extends MonitoredActivity {
         mContentResolver = getContentResolver();
 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.cropimage);
+        setContentView(R.layout.croplib_cropimage);
 
         mImageView = (CropImageView) findViewById(R.id.image);
 
@@ -377,7 +377,7 @@ public class CropImage extends MonitoredActivity {
             }
         }
 
-        // Return the cropped image directly or save it to the specified URI.
+        // Return the cropped image directly or croplib_save it to the specified URI.
         Bundle myExtras = getIntent().getExtras();
         if (myExtras != null && (myExtras.getParcelable("data") != null
                 || myExtras.getBoolean(RETURN_DATA))) {
